@@ -1,3 +1,8 @@
+const fs = require("fs");
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const path = require("path");
+
 // array of questions for user
 const questions = [
     // Title
@@ -36,7 +41,6 @@ const questions = [
      name: 'linkdin',
      message: 'What is LinkdIn profile.  (Required)',
     },
-
     //GitHub
     {type: 'input',
      name: 'url',
@@ -47,16 +51,22 @@ const questions = [
      name: 'email',
      message: 'What is your email address?',
     }
-
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // function to initialize program
 function init() {
+    //pass questions through
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+        console.log("README.md Successfull Generated!!");
+        writeToFile("README.md", generateMarkdown({...answers}));
+    })
 }
-
 // function call to initialize program
 init();
