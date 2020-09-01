@@ -27,7 +27,7 @@
    [![Watch the video](utils/Images/walkme.png)](https://drive.google.com/file/d/1IZhWg_5byraJhE-JT4_Bn-tzVCQehXYW/view?usp=sharing)
 
    ## Contributiion
-   There is no need for contribution at this time.
+   [Bbeyenene](https://github.com/Bbeyenene) is the only contrubuter to this project.
    
    ## Developers Contact Information
     * LinkdIn Profile: [Berhane](https://www.linkedin.com/in/berhane-beyene/)
