@@ -24,15 +24,15 @@
    7. Your README.md is in your repo enjoy it!!!!!!
    
    Click the demo image to see video demonstration:
-   [![Watch the video](walkme.png)](walktrough.mp4)
+   [![Watch the video](walkme.png)](https://drive.google.com/file/d/1HI4Dj1PAfG7sfshxz_c3LiTg2LT_1UNk/view?usp=sharing)
 
    ## Contributiion
-   This is where you add contribution information
+   There is no need for contribution at this time.
    
    ## Developers Contact Information
-    * LinkdIn Profile: add your LinkdIn profile
-    * URL : add the url
-    * Email: add your email
+    * LinkdIn Profile: [Berhane](https://www.linkedin.com/in/berhane-beyene/)
+    * URL : N/A
+    * Email: monoxica2004@yahoo.com
    ## License
     ### This application is licensed under [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
   
