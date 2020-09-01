@@ -18,7 +18,7 @@ const questions = [
     //Installation information
     {type: 'input',
      name: 'installation',
-     message: 'What are the installattion requierements and guide for this project? (Required)',
+     message: 'What are the installation requierements and guide for this project? (Required)',
     },
     //Usage Instructions
     {type: 'input',
@@ -39,7 +39,7 @@ const questions = [
     //linkden
     {type: 'input',
      name: 'linkdin',
-     message: 'What is LinkdIn profile.  (Required)',
+     message: 'What is LinkdIn profile.  (Optional)',
     },
     //GitHub
     {type: 'input',
