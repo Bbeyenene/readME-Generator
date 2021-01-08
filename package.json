@@ -1,12 +1,12 @@
 {
-  "name": "static-site",
+  "name": "readME-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Readme generator is a node app built to help developers save time in writing readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Berhane Beyene",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
